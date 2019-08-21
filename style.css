@@ -1,0 +1,87 @@
+/*text-transform: */
+h {
+	font-size: 3em;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+a.header:visited{
+	color: #fff;
+}
+a.header:hover{
+	color: #3498db;
+	text-decoration: none;
+}
+.header {
+	font-size: 2em;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	color: gray;
+	padding-left: 1em;
+}
+p {
+	font-size: 1.2em;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/*Links*/
+a {
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	color: #3498db;
+	text-decoration: none;
+}
+a:visited{
+	color: #9b59b6;
+	text-decoration: none;
+}
+a:hover{
+	color: #2980b9;
+	text-decoration: none;
+}	
+.dayLink {
+	font-size: 2em;
+}
+.dayTable{
+	table-layout: fixed;
+	width: 100%;
+}
+td.left{
+	text-align: left;
+}
+td.middle{
+	text-align: center;
+}
+td.right{
+	text-align: right;
+}
+/*Center Content*/
+html, body {
+	height: 100%;
+}
+.main {
+	height: 75%;
+	width: 100%;
+	display: table;
+}
+.wrapper {
+	display: table-cell;
+	height: 100%;
+	vertical-align: middle;
+}
+.center {
+	margin: auto;
+	width: 75%;
+}
+
+/*Dark Mode Support*/
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #ddd;
+		background-color: #2F2F31;
+	}
+	a:hover{
+		color: #34B9F1;
+		text-decoration: none;
+	}
+	a:visited{
+		color: #C459E4	;
+		text-decoration: none;
+	}
+}
